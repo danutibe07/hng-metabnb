@@ -13,24 +13,6 @@ const Navbar = () => {
   const toggleTab = (index) => {
     setTogglestate(index);
   }
-  const links = [
-    {
-      id: 1,
-      link: "Home",
-    },
-    {
-      id: 2,
-      link: "Place to stay",
-    },
-    {
-      id: 3,
-      link: "NFTs",
-    },
-    {
-      id: 4,
-      link: "Community",
-    },
-  ];
   return (
     <div >
       <section className="navcontainer">
@@ -89,22 +71,15 @@ const Navbar = () => {
         {navbar && (
           <>
             <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-700 text-gray-500 ease-in-out-500 z-10">
-              {/* {links.map((link, id) => (
-                <li
-                  key={link.id}
-                  className="px-4 cursor-pointer py-6 text-4xl hover:scale-105 duration-200"
-                >
-                  {link.link}
-                </li>
-              ))} */}
               <div className="mobilelinkscontain">
           <ul className='mobilelinks'>
             <li> <a href="/">Home</a></li>
             <li><NavLink to="/placetostay">Place to stay</NavLink></li>
             <li><a href="#nfts">NFTs</a></li>
             <li> <a href="#community">Community</a></li>
+            <li>    <button onClick={() => toggleTab(1)}>Connect wallet</button></li>
           </ul>
-           <button className="connect__button connect_btn" onClick={() => toggleTab(1)}>Connect wallet</button>
+       
         </div>
                
             </ul>

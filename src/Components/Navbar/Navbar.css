@@ -50,7 +50,6 @@ border: 0;
 }
 .connect__content{
   position: relative;
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
 }
 .connect__icon{
   display: block;
@@ -231,8 +230,16 @@ li{
   .tog_nav{
     display: block !important;
     position: absolute;
-    right: 200px;
+    right: 250px;
     top: 50px;
+  }
+  .connect__modal-connect h2{
+    width: 300px;
+  }
+  .connect__modal-content{
+    top: 150px;
+    left: 50px;
+    position: absolute;
   }
   .connect__button{
     display: none !important;
@@ -241,6 +248,13 @@ li{
 .mobilelinks{
   height: 270px !important;
   justify-content: space-between;
+  padding-top: 150px;
+}
+.mobilelinks button{
+  background-color: #434343;
+  color: white;
+  border: 0;
+  outline: 0;
 }
 .mobilelinkscontain{
   background-color:  #434343;
