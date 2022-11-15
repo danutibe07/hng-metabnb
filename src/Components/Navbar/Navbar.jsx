@@ -5,7 +5,7 @@ import image3 from "../../images/Vector3.svg"
 import image4 from "../../images/Vector4.svg"
 import image20 from "../../images/connect1.svg"
 import image21 from "../../images/connect2.svg"
-import {NavLink} from "react-router-dom"
+import { NavLink} from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div className="links">
           <ul className='desklinks'>
-            <li> <a href="/">Home</a></li>
+            <li> <NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/placetostay">Place to stay</NavLink></li>
             <li><a href="#nfts">NFTs</a></li>
             <li> <a href="#community">Community</a></li>
