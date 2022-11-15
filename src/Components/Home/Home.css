@@ -172,6 +172,10 @@ margin-top:100px;
     margin-top: -40px;
 }
 @media screen and (max-width : 600px) {
+    .menu{
+        height: 500px;
+        justify-content: space-between;
+    }
     .learnmore{
         height: 800px;
     }

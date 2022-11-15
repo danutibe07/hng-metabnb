@@ -5,10 +5,9 @@ import image3 from "../../images/Vector3.svg"
 import image4 from "../../images/Vector4.svg"
 import image20 from "../../images/connect1.svg"
 import image21 from "../../images/connect2.svg"
-
+import {Link} from "react-router-dom"
 const Navbar = () => {
   const [toggleState, setTogglestate] = useState(0);
-
   const toggleTab = (index) => {
     setTogglestate(index);
   }
@@ -22,7 +21,7 @@ const Navbar = () => {
         <div className="links">
           <ul>
             <li> <a href="/">Home</a></li>
-            <li><a href="/placetostay">Place to stay</a></li>
+            <li><Link to="/placetostay">Place to stay</Link></li>
             <li><a href="#nfts">NFTs</a></li>
             <li> <a href="#community">Community</a></li>
           </ul>
