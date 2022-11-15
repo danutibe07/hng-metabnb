@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <BrowserRouter >
+      <BrowserRouter basename="hng-metabnb" >
         <Routes>
           <Route exact path="/" element={ <Home />}/>
           <Route path="/placetostay" element={ <Placetostay />}/>
