@@ -13,7 +13,7 @@
   background-color: white;
 }
 
-.navcontainer .links{
+.navcontainer .desklinks{
   font-family: 'Red Rose', cursive;
   font-size: 18px;
   font-weight: 600;
@@ -22,6 +22,8 @@
   text-align: left;
   justify-content: space-between;
   padding-top: 12px;
+  display: flex;
+  flex-direction: row;
 }
 a{
   padding-right: 48px;
@@ -155,6 +157,12 @@ border: 0;
 .menu ul{
   display: none;
 }
+.desklinks{
+  display: block;
+}
+li{
+  list-style: none;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -206,8 +214,9 @@ border: 0;
     /* display: none; */
     visibility: hidden;
   }
-  .links ul{
+  .desklinks{
     display: none;
+    visibility: hidden;
   }
   .menu ul {
     display: block;

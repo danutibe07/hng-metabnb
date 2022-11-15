@@ -5,7 +5,8 @@ import image3 from "../../images/Vector3.svg"
 import image4 from "../../images/Vector4.svg"
 import image20 from "../../images/connect1.svg"
 import image21 from "../../images/connect2.svg"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
+import Menu from './Menu'
 const Navbar = () => {
   const [toggleState, setTogglestate] = useState(0);
   const toggleTab = (index) => {
@@ -19,9 +20,9 @@ const Navbar = () => {
           <img src={image4} alt="image4" />
         </div>
         <div className="links">
-          <ul>
+          <ul className='desklinks'>
             <li> <a href="/">Home</a></li>
-            <li><Link to="/placetostay">Place to stay</Link></li>
+            <li><NavLink to="/placetostay">Place to stay</NavLink></li>
             <li><a href="#nfts">NFTs</a></li>
             <li> <a href="#community">Community</a></li>
           </ul>
@@ -61,7 +62,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </section>
+        <Menu />
+      </section> 
     </div>
   )
 }
