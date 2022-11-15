@@ -159,6 +159,7 @@ border: 0;
 }
 .desklinks{
   display: block;
+  margin-top: -10px;
 }
 li{
   list-style: none;
@@ -224,5 +225,30 @@ li{
     display: flex;
     flex-direction: column;
   }
+  .mobilelinkscontain{
+    display: block;
+  }
+  .tog_nav{
+    display: block;
+  }
 }
-
+.mobilelinks{
+  height: 270px !important;
+  justify-content: space-between;
+}
+.mobilelinkscontain{
+  background-color:  #434343;
+  display: none;
+}
+.tog_nav{
+  display: none;
+}
+.mobilelinks li{
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 15px;
+}
+.mobilelinkscontain a{
+  color: white;
+}
