@@ -20,10 +20,12 @@ const Navbar = () => {
           <img src={image4} alt="image4" />
         </div>
         <div className="links">
-          <a href="/">Home</a>
-          <a href="/placetostay">Place to stay</a>
-          <a href="#nfts">NFTs</a>
-          <a href="#community">Community</a>
+          <ul>
+            <li> <a href="/">Home</a></li>
+            <li><a href="/placetostay">Place to stay</a></li>
+            <li><a href="#nfts">NFTs</a></li>
+            <li> <a href="#community">Community</a></li>
+          </ul>
         </div>
         <div className="connect__content">
           <button className="connect__button connect_btn" onClick={() => toggleTab(1)}>Connect wallet</button>

@@ -3,7 +3,7 @@
 }
 .navcontainer{
   height: 48px;
-  width: 1200px;
+  width: 1254px;
   padding: 2% 5%;
   display: flex;
   flex-direction: row;
@@ -152,6 +152,9 @@ border: 0;
 .line{
   border: 1px solid #CFD8DC;
 }
+.menu ul{
+  display: none;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -202,6 +205,15 @@ border: 0;
   .navcontainer .link a{
     /* display: none; */
     visibility: hidden;
+  }
+  .links ul{
+    display: none;
+  }
+  .menu ul {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
   }
 }
 
