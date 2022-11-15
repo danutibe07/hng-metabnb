@@ -73,7 +73,7 @@ const Navbar = () => {
             <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-700 text-gray-500 ease-in-out-500 z-10">
               <div className="mobilelinkscontain">
           <ul className='mobilelinks'>
-            <li> <a href="/">Home</a></li>
+          <li> <NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/placetostay">Place to stay</NavLink></li>
             <li><a href="#nfts">NFTs</a></li>
             <li> <a href="#community">Community</a></li>
