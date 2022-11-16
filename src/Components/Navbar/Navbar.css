@@ -232,7 +232,7 @@ li{
     display: block !important;
     position: absolute;
     right: 250px;
-    top: 50px;
+    top: 17px;
   }
   .connect__modal-connect h2{
     width: 300px;
@@ -269,6 +269,7 @@ li{
 .tog_nav{
   display: none;
   color: #A02279;
+  margin-top: 10px;
 }
 .mobilelinks li{
   align-items: center;
