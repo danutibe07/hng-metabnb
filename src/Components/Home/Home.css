@@ -202,11 +202,11 @@ margin-top:100px;
         display: none;
     }
     .section2{
-        justify-content:space-between ;
-        padding: 1rem 2rem;
+        justify-content:space-around ;
+        padding: 1rem .4rem;
     }
     .section2 img{
-     width: 300px;
+     width: 100px;
      height: 30px;
      padding-bottom: 20px;
     }
@@ -235,7 +235,7 @@ margin-top:100px;
     }
 .colimages {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 20px;
     justify-content: space-around;
     margin-top: 0;
