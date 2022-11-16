@@ -203,7 +203,8 @@ margin-top:100px;
     }
     .section2{
         justify-content:space-around ;
-        padding: 1rem .4rem;
+        padding: 1rem 3rem;
+        width: 400px;
     }
     .section2 img{
      width: 100px;
