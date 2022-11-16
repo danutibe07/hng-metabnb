@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hng-metabnb/static/css/main.eb86a108.css",
-    "main.js": "/hng-metabnb/static/js/main.6451879c.js",
+    "main.css": "/hng-metabnb/static/css/main.11555800.css",
+    "main.js": "/hng-metabnb/static/js/main.96b31df7.js",
     "static/media/Frame123.svg": "/hng-metabnb/static/media/Frame123.37e0315bcb8f8525cb287d80ee1bcfc3.svg",
     "static/media/Place3.svg": "/hng-metabnb/static/media/Place3.037a7905e6e76e5b60be1706d793bc83.svg",
     "static/media/place7.svg": "/hng-metabnb/static/media/place7.e1c004e1d8c989ae990a3b268da037ee.svg",
@@ -35,11 +35,11 @@
     "static/media/Vector1.svg": "/hng-metabnb/static/media/Vector1.74f0551863140fad0ccab1166854eaa2.svg",
     "index.html": "/hng-metabnb/index.html",
     "static/media/star.svg": "/hng-metabnb/static/media/star.ceb9d6c133d05cb32e070cda0bfbeb58.svg",
-    "main.eb86a108.css.map": "/hng-metabnb/static/css/main.eb86a108.css.map",
-    "main.6451879c.js.map": "/hng-metabnb/static/js/main.6451879c.js.map"
+    "main.11555800.css.map": "/hng-metabnb/static/css/main.11555800.css.map",
+    "main.96b31df7.js.map": "/hng-metabnb/static/js/main.96b31df7.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb86a108.css",
-    "static/js/main.6451879c.js"
+    "static/css/main.11555800.css",
+    "static/js/main.96b31df7.js"
   ]
 }
