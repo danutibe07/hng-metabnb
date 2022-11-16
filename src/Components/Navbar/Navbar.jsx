@@ -5,7 +5,7 @@ import image3 from "../../images/Vector3.svg"
 import image4 from "../../images/Vector4.svg"
 import image20 from "../../images/connect1.svg"
 import image21 from "../../images/connect2.svg"
-import { NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
@@ -46,7 +46,6 @@ const Navbar = () => {
                     </div>
                     <i class="uil uil-angle-right-b connect__modal-icon"></i>
                   </button>
-
                 </li>
                 <li className="connect__modal-connect">
                   <button className='connect_btns'>
@@ -72,20 +71,18 @@ const Navbar = () => {
           <>
             <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-700 text-gray-500 ease-in-out-500 z-10">
               <div className="mobilelinkscontain">
-          <ul className='mobilelinks'>
-          <li> <NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/placetostay">Place to stay</NavLink></li>
-            <li><a href="#nfts">NFTs</a></li>
-            <li> <a href="#community">Community</a></li>
-            <li>    <button onClick={() => toggleTab(1)}>Connect wallet</button></li>
-          </ul>
-       
-        </div>
-               
+                <ul className='mobilelinks'>
+                  <li> <NavLink to="/">Home</NavLink></li>
+                  <li><NavLink to="/placetostay">Place to stay</NavLink></li>
+                  <li><a href="#nfts">NFTs</a></li>
+                  <li> <a href="#community">Community</a></li>
+                  <li>    <button onClick={() => toggleTab(1)}>Connect wallet</button></li>
+                </ul>
+              </div>
             </ul>
           </>
         )}
-      </section> 
+      </section>
     </div>
   )
 }

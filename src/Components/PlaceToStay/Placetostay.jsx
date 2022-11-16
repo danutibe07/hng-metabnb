@@ -17,6 +17,16 @@ const Placetostay = () => {
                         <a href="/placetostay">Off-grid</a>
                         <a href="/placetostay">Farm</a>
                     </div>
+                    <select name="Sort" id="placesort">
+                        <option value=""><a href="/placetostay">Restaurant</a></option>
+                        <option value=""><a href="/placetostay">Cottage</a></option>
+                        <option value=""><a href="/placetostay">Castle</a></option>
+                        <option value=""><a href="/placetostay">fantast city</a></option>
+                        <option value=""><a href="/placetostay">beach</a></option>
+                        <option value=""><a href="/placetostay">Carbins</a></option>
+                        <option value=""><a href="/placetostay">Off-grid</a></option>
+                        <option value=""><a href="/placetostay">Farm</a></option>
+                    </select>
                     <img className="placenavimg" src={locationimg} alt={locationimg} />
                 </div>
                 <div className='box'>

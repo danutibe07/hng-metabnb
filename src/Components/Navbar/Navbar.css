@@ -226,6 +226,7 @@ li{
   }
   .mobilelinkscontain{
     display: block !important;
+    z-index: -66;
   }
   .tog_nav{
     display: block !important;
@@ -267,6 +268,7 @@ li{
 }
 .tog_nav{
   display: none;
+  color: #A02279;
 }
 .mobilelinks li{
   align-items: center;

@@ -9,7 +9,6 @@
 
 /*PLACE TO STAY*/
 .placetostay {
-    width: 1200px;
     padding: 2% 5%;
     font-family: "Red Rose";
 }
@@ -69,8 +68,9 @@
 .placenav {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 .placelinks {
@@ -98,7 +98,9 @@
         margin: 0;
     }
 }
-
+select{
+    display: none;
+}
 @media screen and (max-width : 600px) {
     section {
         width: 500px;
@@ -122,5 +124,11 @@
         font-weight: bold;
         align-items: left;
         width: 350px;
+    }
+    select{
+        display: block;
+    }
+    .placelinks{
+        display: none;
     }
 }
